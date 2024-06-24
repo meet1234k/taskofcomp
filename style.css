@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 1000px;
+    margin-bottom: 30px;
+}
+
+.logo img {
+    padding-top: 20px;
+    margin-left: 60px;
+    
+}
+
+.icons img {
+    height: 35px;
+    width: 30px;
+     padding-top: 10px; 
+    gap: 30px;
+    align-items: center;
+    margin-left: 18px;
+    
+    border-radius: 30px;
+    color: white;
+}
+
+.main {
+    display: flex;
+    max-width: 100%;
+    height: 100%;
+    gap: 50px;
+}
+
+.sidebar {
+    height: 600px;
+    width: 100px;
+    border: 2px solid rgb(179, 168, 168);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.arrow {
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    border-top-right-radius: 15px;
+}
+
+.arrow img {
+    height: 20px;
+    
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 49px;
+    margin-top: 5px;
+
+}
+
+.mainside {
+    max-width: 90%;
+    height: 100%;
+   
+}
+
+.firstlayer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 720px;
+
+}
+
+.firstlayer h2 {
+    color: blue;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.secondlayer {
+    margin-top: 20px;
+    max-width: 92%;
+    border: 1px solid rgb(79, 77, 77);
+    padding: 30px;
+    background-color: rgb(225, 210, 210)
+}
+
+.secondlayer p {
+    margin-top: 10px;
+
+}
+.container{
+    width: 92%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card{
+    height: 550px;
+    width: 610px;
+    border: 3px solid rgb(173, 168, 168);
+    display: flex;
+    flex-direction: row;
+    border-radius: 14px;
+    margin-top: 50px;
+}
+
+.cardheading h4{
+    display: flex;
+    justify-content: center;
+    background-color: black; 
+    height: 40px;
+    width: 610px;
+    border-radius: 14px;
+    text-align: center;
+    color: white;
+    align-items: center;
+    
+}
+.cardheading span{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.cardheading p{
+    padding: 12px;
+}
+.boximg{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+   background-position: center;
+}
+.cardheading h3{
+    margin-top: 40px;
+    padding: 15px;
+    padding-right:13PX ;
+}
+.cardheading input{
+    padding: 12px;
+    padding-right: 350px;
+    margin-left: 13px;
+    border-radius: 8px;
+    border: 2px solid rgb(180, 169, 169);
+}
+.cardheading img{
+    width: 600px;
+}
+.cardheading h2{
+    display: flex;
+    padding: 14px;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+.cardheading h2 span{
+    font-size: 25px;
+}
+.boxes2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top:30px ;
+    gap: 50px;
+}
+.box1{
+    border: 2px solid rgb(198, 190, 190);    
+    padding: 10px;
+    height: 110px;
+    width: 260px;
+    border-radius:10px ;
+
+}
+.box1 p{
+    border: 2px solid rgb(198, 190, 190);    
+    padding: 4px;
+    margin-top: 15px;
+}
+.box2{
+    border: 2px solid rgb(198, 190, 190);    
+    padding: 10px;
+    height: 110px;
+    width: 260px;
+    border-radius: 10px;
+
+}
+.box2 p{
+    border: 2px solid rgb(198, 190, 190);
+    padding: 4px;
+    margin-top: 15px;
+}
+.boxicons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    align-items: center;
+    margin-top: 20px;
+}
+.withicons{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    
+}
+.withicons p{
+    padding: 5px;
+    margin-right: 10px;
+    border: 2px solid rgb(184, 179, 179);
+    border-radius: 8px;
+    
+}
+.button2{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 140px;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+.newinput{
+    margin-top: 15px;
+    margin-left: 30px;
+    border: 2px solid rgb(195, 185, 185);
+    margin-right: 15px;
+    padding: 13px;
+    border-radius: 13px;
+}
+.newinput h5{
+    font-size: 20px;
+    
+}
+.readmore{
+    display: flex;
+    justify-content: flex-end;
+    color: blue;
+    margin-right: 20px;
+}
